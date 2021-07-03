@@ -1,0 +1,16 @@
+.user-entry {
+  display: flex;
+  height: 3rem;
+  align-content: center;
+  border: rgba(0, 0, 0, .1) solid 2px;
+  border-radius: 3px;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  & span {
+    font-size: 1.6rem;
+    margin: auto 1rem auto 1rem;
+  }
+}

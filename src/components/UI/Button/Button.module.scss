@@ -1,0 +1,21 @@
+@import "src/Colors.module";
+.main {
+  background: $main-color;
+  font-size: 1.6rem;
+  border: none;
+  color: #eee;
+  font-weight: 400;
+  cursor: pointer;
+
+  & span {
+    padding: 0 3rem;
+    line-height: 3rem;
+    font-weight: 600;
+  }
+  &:hover {
+    background: rgba($main-color, .9);
+  }
+  &:active {
+    background: rgba($main-color, .75);
+  }
+}
